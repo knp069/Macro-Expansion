@@ -1,0 +1,32 @@
+macro definition detected on line number : 3
+adding macro to symbol table
+macro name is : k
+macro definition is : 9
+macro definition detected on line number : 4
+adding macro to symbol table
+macro name is : add(x,y)
+macro definition is : x+y
+macro definition detected on line number : 5
+adding macro to symbol table
+macro name is : sub(x,y)
+macro definition is : add(x,y)
+neither macro definition nor macro was on line number : 1
+macro definition was on line number : 2
+macro definition was on line number : 3
+macro definition was on line number : 4
+neither macro definition nor macro was on line number : 5
+neither macro definition nor macro was on line number : 6
+neither macro definition nor macro was on line number : 7
+macro detected on line number : 8
+macro was found to be k
+Expanding macro
+macro expanded successfully
+macro was expanded to  : 9
+neither macro definition nor macro was on line number : 9
+macro detected on line number : 10
+macro was found to be add(add(add(1,2),3),sub(8,5))
+Expanding macro
+macro expanded successfully
+macro was expanded to  : 1+2+3+8+5
+neither macro definition nor macro was on line number : 11
+neither macro definition nor macro was on line number : 12
